@@ -2,9 +2,9 @@ body {
   background: rgb(74, 45, 253);
   background: linear-gradient(
     0deg,
-    rgba(74, 45, 253, 1) 0%,
-    rgba(10, 10, 10, 1) 72%,
-    rgba(10, 10, 10, 1) 100%
+    rgb(193, 189, 224) 0%,
+    rgb(233, 181, 181) 72%,
+    rgb(241, 119, 119) 100%
   );
 }
 
@@ -19,7 +19,7 @@ header {
 .welcome {
   text-align: center;
   color: white;
-  text-shadow: rgba(255, 255, 255, 0.54) 10px 10px 8px;
+  text-shadow: rgba(39, 36, 36, 0.54) 10px 10px 8px;
 }
 
 .menu {
@@ -27,7 +27,7 @@ header {
 }
 
 .delete {
-  color: red;
+  color: pink;
   background: black;
   padding: 5px;
   border-radius: 10px;
@@ -36,7 +36,7 @@ header {
 
 .update {
   color: white;
-  background: green;
+  background: rgb(196, 243, 196);
   padding: 5px;
   border-radius: 10px;
   margin: 0;
@@ -59,7 +59,7 @@ header {
 
 .card-title {
   text-decoration: underline;
-  color: blue;
+  color: rgb(1, 1, 14);
   cursor: pointer;
 }
 
