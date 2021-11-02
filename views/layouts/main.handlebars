@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.3/dist/css/foundation.min.css"
+      crossorigin="anonymous"
+    />
+    <link 
+      rel="stylesheet" 
+      href="/css/style.css" 
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+      defer
+    ></script>
+    <script src="/js/main.js" defer></script>
+    <title>Tech Blog</title>
+  </head>
+  <body>
+    <header>
+      <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/dashboard">Dashboard</a></li>
+        {{#if username}}
+        <li><a href="/api/users/logout">Logout</a></li>
+        {{else}}
+        <li><a href="/login">Login</a></li>
+        {{/if}}
+      </ul>
+    </header>
+    {{{body}}}
+    <div class="bottom">
+  <div>
+    <button id="newpost" class="submit success button">+ New Post</button>
+  </div>
+</div>
+  </body>
+</html>

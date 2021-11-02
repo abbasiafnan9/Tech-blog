@@ -1,0 +1,23 @@
+<div id="title-background">
+  <div id="title">
+    <h1>The Tech Blog</h1>
+  </div>
+</div>
+<h2 class="welcome">Welcome {{username}}</h2>
+{{#each blogs}}
+  <div class="card">
+    <div class="card-divider">
+      <div class="card-title">
+      <a href="/api/blogs/{{id}}">{{title}}</a>
+      </div>
+      <div class="created">
+        Created by: {{User.username}} on {{short createdAt}}
+      </div>
+    </div>
+    <div class="card-section">
+      {{body}}
+    </div>
+  </div>
+{{/each}}
+
+
