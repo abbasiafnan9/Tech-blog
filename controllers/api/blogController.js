@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const { User, Blog, Comment } = require("../../models");
 
-
+//get all blog posts
 
 router.get("/", (req, res) => {
   Blog.findAll({
@@ -38,6 +38,8 @@ router.post("/", (req, res) => {
     });
 });
 
+//get one blog post
+
 router.get("/:id", (req, res) => {
   Blog.findOne({
     where: {
@@ -60,6 +62,8 @@ router.get("/:id", (req, res) => {
       res.status(500).json({ message: "an error occured", err: err });
     });
 });
+
+//delete one blog post
 
 router.delete("/:id", (req, res) => {
   Blog.destroy({

@@ -22,6 +22,8 @@ router.get("/",(req,res)=>{
     })
 })
 
+//check if user logged in then get all user blogs and render dashboard page
+
 router.get("/dashboard",(req,res)=>{
     if(!req.session.user){
         return res.redirect("/login")
@@ -35,19 +37,19 @@ router.get("/dashboard",(req,res)=>{
     })
 })
 
-//login page routes
+//render login page
 
 router.get("/login",(req,res)=>{
     res.render("login")
 })
 
-//signup page route
+//render sign up page
 
 router.get("/signup",(req,res)=>{
     res.render("signup")
 })
 
-//compose page route
+//render new post page
 
 router.get("/newpost",(req,res)=>{
     if(!req.session.user){
