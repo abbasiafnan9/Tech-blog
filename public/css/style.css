@@ -11,7 +11,7 @@ body {
 header {
   background: rgb(87, 54, 54);
 }
-
+                       
 .hide {
   display: none;
 }
@@ -93,7 +93,7 @@ header {
 #title {
   position: relative;
   width: fit-content;
-  color: darkblue;
+  color: turquoise;
   background: lightblue;
   padding: 0 10px 0 10px;
   margin-left: 1%;
