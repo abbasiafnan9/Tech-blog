@@ -1,15 +1,15 @@
 body {
-  background: rgb(74, 45, 253);
+  background: rgb(162, 150, 238);
   background: linear-gradient(
     0deg,
-    rgb(193, 189, 224) 0%,
-    rgb(233, 181, 181) 72%,
-    rgb(241, 119, 119) 100%
+    rgb(125, 121, 156) 0%,
+    rgb(143, 126, 126) 72%,
+    rgb(41, 39, 39) 100%
   );
 }
 
 header {
-  background: black;
+  background: rgb(87, 54, 54);
 }
 
 .hide {
