@@ -48,3 +48,4 @@ https://guarded-bayou-66674.herokuapp.com/
 >Email: [abbasiafnan9@gmail.com](mailto:mark.abbasiafnan9@gmail.com)
 >
 
+![tech blog](https://user-images.githubusercontent.com/86696292/149209028-89d116a2-788f-4d4d-b685-819c24a35987.PNG)
